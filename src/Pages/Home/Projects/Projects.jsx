@@ -104,7 +104,6 @@ const ProjectsSection = () => {
             key={p.id}
             className="card bg-base-100 shadow-xl border border-secondary"
           >
-            {/* Image */}
             <figure>
               <img
                 src={p.image}
@@ -152,7 +151,6 @@ const ProjectsSection = () => {
               </div>
             </div>
 
-            {/* Modal */}
             <dialog id={`modal-${p.id}`} className="modal">
               <div className="modal-box max-w-2xl">
                 <h3 className="text-2xl font-bold mb-3 text-primary">
@@ -161,7 +159,6 @@ const ProjectsSection = () => {
 
                 <p className="text-accent mb-4">{p.description}</p>
 
-                {/* Tech Stacks */}
                 <h4 className="font-semibold text-primary">Tech Stacks:</h4>
                 <div className="flex flex-wrap gap-2 my-2">
                   {p.tech.map((t, i) => (
@@ -174,7 +171,6 @@ const ProjectsSection = () => {
                   ))}
                 </div>
 
-                {/* Features */}
                 <h4 className="font-semibold text-primary mt-4">
                   Key Features:
                 </h4>
@@ -184,7 +180,6 @@ const ProjectsSection = () => {
                   ))}
                 </ul>
 
-                {/* Links again inside modal */}
                 <div className="mt-6 flex flex-wrap gap-3">
                   <a
                     href={p.live}
@@ -209,7 +204,6 @@ const ProjectsSection = () => {
                   </a>
                 </div>
 
-                {/* Close modal */}
                 <form method="dialog">
                   <button className="btn btn-sm mt-5">Close</button>
                 </form>

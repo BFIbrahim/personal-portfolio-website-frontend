@@ -29,14 +29,12 @@ const Skills = () => {
 
   return (
     <section className="py-16 bg-secondary text-accent">
-      <div className="max-w-6xl mx-auto px-4">
-        {/* Heading */}
+      <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-primary mb-4">Skills</h2>
         <p className="text-lg mb-4">
           I work with a variety of technologies and tools to build professional web applications and designs.
         </p>
 
-        {/* Main Skills */}
         <div className="mb-8">
           <div className="flex flex-wrap gap-3">
             {mainSkills.map((skill, index) => (
@@ -50,7 +48,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Tools Section */}
         <div>
           <h3 className="text-2xl font-semibold text-primary mb-4">Tools & Others</h3>
           <div className="flex flex-wrap gap-3">
