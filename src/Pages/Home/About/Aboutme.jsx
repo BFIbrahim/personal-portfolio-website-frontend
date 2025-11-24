@@ -12,7 +12,7 @@ const AboutMe = () => {
                     <div className="grid md:grid-cols-2 gap-10 items-center">
 
                         <div>
-                            <h3 className="text-2xl font-bold text-accent mb-4">Who I am?</h3>
+                            <h3 className="text-2xl font-bold text-primary mb-4">Who I am?</h3>
 
                             <p className="text-gray-700 leading-7 mb-6">
                                 <p className="mb-3">I am a passionate <span className="font-semibold">Web Application Developer</span> with experience in front-end and full-stack development. I enjoy turning ideas into user-friendly web applications that are both functional and visually engaging.</p>
@@ -33,7 +33,7 @@ const AboutMe = () => {
                             <ul className="text-lg space-y-3 text-primary">
                                 <li><span className="font-semibold text-accent">Name:</span> Ibrahim Hossain</li>
                                 <li><span className="font-semibold text-accent">Nationality:</span> Bangladeshi</li>
-                                <li><span className="font-semibold text-accent">Phone:</span> +8801956-633205</li>
+                                <li><span className="font-semibold text-accent">Phone:</span> +880 1956-633205</li>
                                 <li><span className="font-semibold text-accent">Email:</span> ibrahimhossain3@yahoo.com</li>
                                 <li><span className="font-semibold text-accent">Experience:</span> 1+ Years</li>
                                 <li><span className="font-semibold text-accent">Language:</span> English</li>
