@@ -1,25 +1,43 @@
+
 import React from 'react';
-import img from '../../../assets/Ibrahim.png'
+import img from '../../../assets/Ibrahi2.png'
 
 const Banner = () => {
     return (
-        <div className='bg-secondary'>
-            <div className='flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto'>
-                <div className='text-primary w-[95%] mx-auto text-center md:text-start lg:text-start mt-8 md:mt-0 lg:mt-0'>
-                    <h3 className='text-xl font-semibold'>Hi, I am</h3>
-                    <h1 className='text-3xl md:text-5xl font-bold'>Ibrahim Hossain</h1>
-                    <p className='md:w-[70%]  mt-3'><span className='font-bold text-primary'>Web Developer</span> - I truly enjoy bringing ideas to life by building things that didn’t exist before.</p>
-
-                    <div className='mt-5'>
-                        <button className='btn btn-primary mr-4 border-primary hover:bg-transparent hover:text-primary'>Download Resume</button>
-                        <button className='btn btn-secondary border-primary text-primary hover:bg-primary hover:text-white shadow-sm'>Contact me</button>
+        <section className={`py-12 md:py-20 bg-secondary`}>
+            <div className="container mx-auto md:px-24">
+                <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+                    
+                    <div className="w-full  text-center md:text-left">
+                        <p className="text-xl mb-2 text-primary">Hi, I am</p>
+                        
+                        <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold text-primary mb-6 leading-tight">
+                            Ibrahim Hossain
+                        </h1>
+                        
+                        <p className="text-primary text-lg mb-8 max-w-lg md:max-w-none mx-auto md:mx-0">
+                            <span className='font-bold'>Web Developer</span> - I truly enjoy bringing ideas to life by building things that didn't exist before.
+                        </p>
+                        
+                        <div>
+                            <button className='btn btn-primary text-white border-primary hover:bg-transparent hover:text-primary mr-4'>Download Resume</button>
+                            <button className='btn btn-secondary text-primary border-primary hover:bg-primary hover:text-white'>Contact me</button>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img className='md:w-96' src={img} alt="" />
+                    
+                    <div className="w-full flex justify-center md:justify-end">
+                        <div className="relative w-96 h-auto">
+                            <img 
+                                src={img} 
+                                alt="Ibrahim Hossain - Frontend Web Engineer" 
+                                className="w-full h-full object-cover object-top"
+                            />
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
