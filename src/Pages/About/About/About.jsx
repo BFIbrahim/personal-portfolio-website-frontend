@@ -1,9 +1,12 @@
 import React from 'react';
+import AboutBanner from '../AboutBanner/AboutBanner';
+import Acchivement from '../Acchivement/Acchivement';
 
 const About = () => {
     return (
         <div>
-            Hi About
+           <AboutBanner></AboutBanner>
+           <Acchivement></Acchivement>
         </div>
     );
 };

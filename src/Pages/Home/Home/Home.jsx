@@ -14,7 +14,7 @@ const Home = () => {
             <Skills></Skills>
             <ProjectsSection></ProjectsSection>
             <ServiceSection></ServiceSection>
-            <Footer></Footer>
+            
         </div>
     );
 };
