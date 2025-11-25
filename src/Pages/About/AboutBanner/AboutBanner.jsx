@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaFacebook, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router";
 
 const AboutBanner = () => {
     return (
@@ -72,9 +73,9 @@ const AboutBanner = () => {
                         — I truly enjoy bringing ideas to life by building things that didn’t exist before.
                     </p>
 
-                    <button className="btn bg-primary text-white hover:bg-primary/90 px-8">
-                        Get In Touch
-                    </button>
+                    <Link to='/contact'><button className="btn bg-primary text-white hover:bg-primary/90 px-8">
+                        Contact me
+                    </button></Link>
                 </div>
 
             </div>

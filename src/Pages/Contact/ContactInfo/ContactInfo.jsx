@@ -18,10 +18,9 @@ const ContactInfo = () => {
 
   return (
     <section className="py-16 bg-secondary">
-      <div className="container mx-auto px-4">
+      <div className="container max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
 
-          {/* Left Panel */}
           <div className="p-8 rounded-lg shadow-xl bg-secondary border border-primary">
             <div className="mb-8">
               <div className="flex items-start text-primary mb-2">
@@ -77,7 +76,6 @@ const ContactInfo = () => {
 
           </div>
 
-          {/* Right Panel */}
           <div className="lg:pt-8">
             <h2 className="text-3xl font-bold mb-4 text-primary">
               Feel Free To Connect
@@ -93,12 +91,6 @@ const ContactInfo = () => {
               – Let's build something great that has never existed before.
             </p>
 
-            <a
-              href={`mailto:${contactDetails.email}`}
-              className="btn px-8 py-3 bg-primary text-white font-semibold rounded-lg shadow-md hover:bg-accent transition duration-300"
-            >
-              Get In Touch
-            </a>
           </div>
         </div>
       </div>

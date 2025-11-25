@@ -12,7 +12,7 @@ const Banner = () => {
 
           <div className="w-full text-center md:text-left">
             <p className="text-xl text-primary font-medium tracking-wide">
-               Hi, I am
+              Hi, I am
             </p>
 
             <h1 className="text-4xl md:text-5xl font-extrabold text-primary leading-tight mt-2">
@@ -26,13 +26,17 @@ const Banner = () => {
             </p>
 
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
-              <button className="px-6 py-3 rounded-lg bg-primary text-white font-semibold shadow-md hover:bg-primary/90 transition-all">
+              <a
+                href="/Md. Ibrahim Hossain - Full Stack developer - resume.pdf"
+                download="Md. Ibrahim Hossain - Full Stack developer - resume.pdf"
+                className="px-6 py-3 rounded-lg bg-primary text-white font-semibold shadow-md hover:bg-primary/90 transition-all cursor-pointer"
+              >
                 Download Resume
-              </button>
+              </a>
 
-              <button className="px-6 py-3 rounded-lg border border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-all shadow-sm">
+              <Link to='/contact'><button className="px-6 py-3 rounded-lg border border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-all shadow-sm cursor-pointer">
                 Contact Me
-              </button>
+              </button></Link>
             </div>
 
             <div className="flex justify-center md:justify-start gap-5 mt-8">

@@ -20,7 +20,7 @@ const AboutMe = () => {
                                 <p> I focus on creating scalable and efficient solutions that help businesses grow and stand out online. With attention to detail and a love for learning, I aim to deliver projects that truly make an impact.</p>
                             </p>
                            <a
-                                href="/resume.pdf"
+                                href="/Md. Ibrahim Hossain - Full Stack developer - resume.pdf"
                                 download
                                 className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-lg shadow hover:bg-primary/90 transition"
                             >
