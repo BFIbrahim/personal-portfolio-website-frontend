@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const AboutBanner = () => {
     return (
@@ -26,19 +27,40 @@ const AboutBanner = () => {
                     </div>
 
                     <div className="flex justify-center gap-4 mt-6">
-                        <a href="https://linkedin.com" className="text-primary text-2xl hover:text-accent">
+                        <a
+                            href="https://www.linkedin.com/in/md-ibrahim-hossain-76918836b"
+                            className="text-primary text-2xl hover:text-accent"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <FaLinkedin />
                         </a>
-                        <a href="https://github.com" className="text-primary text-2xl hover:text-accent">
+                        <a
+                            href="https://github.com/BFIbrahim"
+                            className="text-primary text-2xl hover:text-accent"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <FaGithub />
                         </a>
-                        <a href="https://facebook.com" className="text-primary text-2xl hover:text-accent">
+                        <a
+                            href="https://facebook.com/BFIbrahiMM"
+                            className="text-primary text-2xl hover:text-accent"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <FaFacebook />
                         </a>
-                        <a href="https://youtube.com" className="text-primary text-2xl hover:text-accent">
-                            <FaYoutube />
+                        <a
+                            href="https://x.com/MdIbrahim361"
+                            className="text-primary text-2xl hover:text-accent"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaXTwitter />
                         </a>
                     </div>
+
                 </div>
 
                 <div className="space-y-6">

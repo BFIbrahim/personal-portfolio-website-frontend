@@ -21,15 +21,15 @@ const SendEmail = () => {
 
     emailjs
       .send(
-        "YOUR_SERVICE_ID",      // Replace
-        "YOUR_TEMPLATE_ID",     // Replace
+        "service_l6q48cf",   
+        "template_6g69jlc",     
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           to_email: "ibrahimhossain3@yahoo.com",
         },
-        "YOUR_PUBLIC_KEY"       // Replace
+        "ZGY27DwHJzqxmPlWM" 
       )
       .then(
         () => {

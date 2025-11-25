@@ -1,5 +1,6 @@
 import React from "react";
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const ContactInfo = () => {
   const contactDetails = {
@@ -39,20 +40,41 @@ const ContactInfo = () => {
               <p className="text-accent ml-8">Phone: {contactDetails.phone}</p>
             </div>
 
-            {/* Social Icons */}
-            <div className="flex space-x-3 ml-8 pt-4">
-              {contactDetails.social.map(({ Icon, href, color }, index) => (
-                <a
-                  key={index}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`p-3 rounded-md text-white transition-transform duration-300 hover:scale-110 ${color}`}
-                >
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
+            <div className="flex justify-center gap-4 mt-6">
+              <a
+                href="https://www.linkedin.com/in/md-ibrahim-hossain-76918836b"
+                className="text-primary text-2xl hover:text-accent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://github.com/BFIbrahim"
+                className="text-primary text-2xl hover:text-accent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href="https://facebook.com/BFIbrahiMM"
+                className="text-primary text-2xl hover:text-accent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook />
+              </a>
+              <a
+                href="https://x.com/MdIbrahim361"
+                className="text-primary text-2xl hover:text-accent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaXTwitter />
+              </a>
             </div>
+
           </div>
 
           {/* Right Panel */}
